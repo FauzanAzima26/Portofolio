@@ -1,3 +1,10 @@
+// All animations will take twice the time to accomplish
+document.documentElement.style.setProperty('--animate-duration', '2s');
+
+// All animations will take half the time to accomplish
+document.documentElement.style.setProperty('--animate-duration', '.5s');
+
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 

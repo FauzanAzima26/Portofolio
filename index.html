@@ -12,6 +12,12 @@
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
 
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!--google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,9 +40,20 @@
         <li><a href="#">Contacts</a></li>
       </ul>
 
-      <div class="menu-btn">
+      <div class="toggle">
+        <input type="checkbox" />
+        <label></label>
+      </div>
+
+      <!-- <div class="menu-btn">
         <span>MENU</span>
         <div class="bx bx-menu" id="menu-icon"></div>
+      </div>  -->
+
+      <div class="burger-icon">
+        <label class="burger" for="burger">
+          <input class="line" type="checkbox" id="burger" />
+        </label>
       </div>
     </header>
 
@@ -45,7 +62,7 @@
       <div class="home-text">
         <span>Web Development</span>
         <h1>Fauzan Azima</h1>
-        <p>
+        <p class="animate__animated animate__animate__fadeInBottomRight">
           Saya adalah seorang web developer berpengalaman dengan keahlian dalam
           pengembangan situs web responsif dan fungsional. Memiliki pemahaman
           mendalam tentang bahasa pemrograman web seperti HTML, CSS, dan
@@ -62,6 +79,33 @@
         />
       </div>
     </section>
+
+    <div class="sertifikat">
+      <div class="e-sertif">
+        <div class="sertif">
+          <img class="ML" src="2-1.jpg" />
+        </div>
+        <div class="sertif">
+          <img class="ML" src="IMG-20220205-WA0010.jpg" />
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+          dolore maxime asperiores iste aut eveniet tenetur obcaecati dolorem
+          impedit inventore quo facere ex nam eaque odit quam, a reiciendis eius
+          quisquam laboriosam quae quidem dicta animi ad! Dolorem ullam rerum
+          quam voluptate mollitia, sed, quis obcaecati repellendus dolorum porro
+          ipsam dignissimos quos corrupti vero laudantium numquam. Illo,
+          reprehenderit neque. Placeat alias exercitationem iste molestiae non
+          officia maiores vero iure ratione maxime, voluptates odio error fuga
+          totam id expedita provident illo fugit, ex omnis aut. Natus
+          praesentium esse ducimus beatae earum veniam commodi repudiandae
+          magnam! Magni adipisci commodi velit in aperiam.
+        </p>
+      </div>
+      <div class="sertif-3">
+        <img class="ML" src="IMG_20230321_020056_721.jpg" />
+      </div>
+    </div>
 
     <!-- <div class="share">
       <p>Check out my:</p>
@@ -80,8 +124,9 @@
         <a href="#"><i class="bx bxl-twitter"></i></a>
         <a href="#"><i class="bx bxl-whatsapp"></i></a>
         <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
       </div>
-    </div>  
+    </div>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
