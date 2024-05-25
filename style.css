@@ -79,7 +79,7 @@ header{
   .burger::after {
     transform: translateY(-8px);
   }
-  .burger .line,
+  .burger, .line,
   .burger::before,
   .burger::after {
     width: 25px;
