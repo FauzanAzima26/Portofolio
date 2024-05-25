@@ -482,6 +482,10 @@ div .sertif{
 }
 
 @media (max-width: 950px){
+    body{
+        height: 100%;
+        width: 79%;
+    }
     .share{
         display: none;
     }
@@ -513,7 +517,6 @@ div .sertif{
 
 @media (max-width: 850px){
         header{
-        width: 100%;
         /* width: 100%;
         height: 100vh;
         padding: 40px 50px;
@@ -525,7 +528,7 @@ div .sertif{
         flex-direction: column;
         background: #2d2d2d;
         transition: all 0.4s ease-in-out; */
-    } */
+    } 
     .navbar a{
         display: block;
         color: #c3c3c3;
