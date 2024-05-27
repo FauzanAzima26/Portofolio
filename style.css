@@ -205,10 +205,6 @@ header{
 
 }
 
-.sertifikat p {
-    text-indent: 50px;
-}
-
 #author, .social{
     display: inline-block;
 }
@@ -267,13 +263,25 @@ section{
     padding: 0 15%;
 }
 
-.sertifikat{
+.sertifikat {
     width: 92%;
-    margin-bottom: 50px;
-    margin-left: 53.4375px;
-    /* background-color: blue  ; */
-    height: 400px;
     display: inline-flex;
+    margin: 0 50.531px;
+    gap: 30px;
+}
+
+.box-img, .box-img-2 {
+    width: 366px;
+    height: 232px;
+}
+
+.box-img-3 {
+    width: 370px;
+}
+
+.sertifikat img{
+    width: 100%;
+    height: auto;
 }
 
 div .sertif{
@@ -300,10 +308,10 @@ div .sertif{
     text-align: justify;
 }
 
-.ML{
-    width: 100%;
-    height: 100%;
-}
+/* .ML{
+    width: 100px;
+    height: 300px;
+} */
 
 .home{
     position: relative;
@@ -514,8 +522,12 @@ div .sertif{
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 831px){
         header{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
         /* width: 100%;
         height: 100vh;
         padding: 40px 50px;
@@ -529,19 +541,66 @@ div .sertif{
         transition: all 0.4s ease-in-out; */
     } 
     .navbar a{
-        display: block;
-        color: #c3c3c3;
+        display: flex;
+        color: black;
         padding: 0px;
-        margin: 0px 0px 40px 0px;
-        font-size: 2rem;
         font-weight: 400;
     }
-    .navbar.open{
-        left: 0;
+    .logo{
+        font-size: x-large;
+    }
+    .burger-icon{
+        display: none;
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 476px){
+
+    body{
+        width: auto;
+    }
+
+    .navbar a{
+        display: none;
+    }
+
+    .toggle{
+        display: none;
+    }
+
+    .burger-icon{
+        display: inline;
+    }
+
+    .home-img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .home-text span{
+        display: none;
+    }
+    .home {
+        gap: 10px;
+    }
+    .home-text h1 {
+        font-size: xxx-large;
+        text-align: center;
+    }
+    p.animate__animated.animate__animate__fadeInBottomRight {
+        text-align: justify;
+    }
+    .main-btn {
+        margin-left: 8px;
+    }
+    .sertifikat {
+        width: auto;
+        margin: 0px;
+        padding: 0 19.031px;
+        display: flex;
+        gap: 15px;
+    }
+ 
     :root{
         --big-font: 4rem;
         --p-font: 15px;
@@ -549,6 +608,37 @@ div .sertif{
     }
     .btn{
         padding: 9px 28px;
+
+    }
+
+    .box-img{
+        padding-left: 8px;
+    }
+    .box-img-3{
+        padding-right: 8px;
+    }
+    .footer {
+        display: flex;
+        padding: 0;
+        margin: 0 19.031px;
+        width: auto;
+    }
+    .social {
+        width: 39%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        padding: 33px 0;
+    }
+
+    .social i{
+        width: 5px;
+        height: auto;
+    }
+    #author {
+        font-size: x-small;
+        padding: 33px 0;
+        padding-left: 27.031px;
     }
 }
 
